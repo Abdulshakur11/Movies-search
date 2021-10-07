@@ -32,7 +32,6 @@ elSearchForm.addEventListener('input', function (e) {
   e.preventDefault()
 
   var elSearchInputText = elSearchInput.value.trim().toLowerCase();
-  // elSearchInput.value = null;
 
   var filteredTitles = normalizedMovies.filter((movie) => {
     return (
